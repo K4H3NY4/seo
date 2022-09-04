@@ -9,13 +9,6 @@ app = Flask(__name__)
 
 
 
-
-@app.route('/')
-def appname():  
-   return "Hello World!"
-
-
-
 @app.route("/demo", methods=['POST'])
 def keywords():
 
